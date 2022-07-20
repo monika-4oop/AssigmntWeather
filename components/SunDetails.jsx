@@ -22,7 +22,7 @@ export const SunDetails = ({ current }) => {
       <Card type="grid">
         <Container>
           <Heading state="title">Pressure</Heading>
-          <Heading>{current.pressure} HPA</Heading>
+          <Heading>{current.pressure} Hpa</Heading>
         </Container>
         <Container>
           <Heading state="title">Humidity</Heading>
