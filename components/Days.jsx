@@ -65,7 +65,7 @@ export const Days = ({ coordinates, setDayTemp, setCurrent }) => {
               selected === i ? "1px solid #5c9fe1" : "2px solid #e9e9e9",
               borderRadius: "5px",
               background: selected === i ? "#67c3e1" : "#fff",
-              color: selected === i ? "#ffff" : "#85a8d6",
+              color: selected === i ? "#ffff" : "#76affa",
             }}
             onClick={() => {
               showChart(day, i);
